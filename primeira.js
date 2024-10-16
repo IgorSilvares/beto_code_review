@@ -5,14 +5,14 @@ For example, given the input = ["hello","hello", "world"], the output = ["hello"
 
 
 function remove_duplicates(input){
-    let unique = []
+    let unique = [];
     for (let i = 0; i < input.length; i++) {
-      if (!unique.includes(input[i]))
-        unique.push(input[i])
+      if (!unique.includes(input[i]));
+        unique.push(input[i]);
     }
-    return unique
-  }
+    return unique;
+  };
   
   const input = ["hello","hello", "world"];
-  const result = remove_duplicates(input)
-  console.log(result)
+  const result = remove_duplicates(input);
+  console.log(result);

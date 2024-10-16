@@ -8,8 +8,15 @@ def remove_duplicates(array):
     for word in array:
         if word not in unique:
             unique.append(word)
-    return unique
+    unique.sort()
+    return unique    
 
 
+"""
 example = ["hello", "hello", "world"]
 print(remove_duplicates(example))
+
+"""
+
+example2 = ["Igor", "Igor", "Humberto", "Joao", "Carlos", "Humberto"]
+print(remove_duplicates(example2))
